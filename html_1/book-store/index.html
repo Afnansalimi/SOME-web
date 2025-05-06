@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BookBag Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>BookBag Co.</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" title="Go to homepage">Home</a></li>
+        <li><a href="shop.html" title="Browse books">Shop</a></li>
+        <li><a href="#" title="Learn more about us">About</a></li>
+        <li><a href="#" title="Contact us">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Backpacks for Book Lovers</h2>
+      <p>Stylish, durable bags perfect for readers on the go.</p>
+    </section>
+
+    <section class="product-grid">
+      <div class="product-card">
+        <img src="images/bag1.jpg" alt="Classic Leather Bag" width="200" height="200"/>
+        <h3>Classic Leather Bag</h3>
+        <p>$79.99</p>
+        <button onclick="addToCart(79.99)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/bag2.jpg" alt="Canvas Book Tote" width="200" height="200"/>
+        <h3>Canvas Book Tote</h3>
+        <p>$49.99</p>
+        <button onclick="addToCart(49.99)">Add to Cart</button>
+      </div> 
+       <!-- Islamic Books -->
+<div class="product-card">
+  <img src="images/quran.jpg" alt="The Holy Quran" width="200" height="300">
+  <h3>The Holy Quran</h3>
+  <p>$25.00</p>
+  <button onclick="addToCart(25.00)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+  <img src="images/seerah.jpg" alt="Seerah of Prophet Muhammad" width="200" height="300">
+  <h3>Seerah of Prophet Muhammad</h3>
+  <p>$18.50</p>
+  <button onclick="addToCart(18.50)">Add to Cart</button>
+</div>
+
+<!-- Indian Literature -->
+<div class="product-card">
+  <img src="images/bhagavadgita.jpg" alt="Bhagavad Gita" width="200" height="300">
+  <h3>Bhagavad Gita</h3>
+  <p>$22.00</p>
+  <button onclick="addToCart(22.00)">Add to Cart</button>
+</div>
+
+<!-- Chinese Philosophy -->
+<div class="product-card">
+  <img src="images/dao.jpg" alt="Tao Te Ching" width="200" height="300">
+  <h3>Tao Te Ching</h3>
+  <p>$20.00</p>
+  <button onclick="addToCart(20.00)">Add to Cart</button>
+</div>
+
+<!-- African Heritage -->
+<div class="product-card">
+  <img src="images/africanroots.jpg" alt="African Cultural Roots" width="200" height="300">
+  <h3>African Cultural Roots</h3>
+  <p>$19.75</p>
+  <button onclick="addToCart(19.75)">Add to Cart</button>
+</div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p id="cart-summary">&copy; 2025 BookBag Co. | Items in cart: 0 | Total: $0.00</p>
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Islamic Bookstore</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Islamic Bookstore</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" title="Back to Home" id="home-link">Home</a></li>
+        <li><a href="shop.html" title="Browse Islamic Books" id="shop-link">Shop</a></li>
+        <li><a href="#" title="Learn About Us">About</a></li>
+        <li><a href="#" title="Contact Page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero-section">
+      <h2>Books That Enlighten Minds</h2>
+      <p>Explore our collection of Islamic books for all ages and knowledge levels.</p>
+      <img src="images/quran.jpg" alt="Holy Quran" width="300" height="200" loading="lazy" />
+    </section>
+
+    <section class="features">
+      <h3>Why Choose Us?</h3>
+      <ul>
+        <li>Authentic and trusted Islamic literature</li>
+        <li>Fast and affordable shipping</li>
+        <li>Discounts for students and teachers</li>
+      </ul>
+    </section>
+
+    <section class="sample-book">
+      <div class="book-card" id="sample-book" tabindex="0">
+        <img src="images/islamic_book.jpg" alt="Islamic Book Sample" width="200" height="250" />
+        <h4>Understanding Islam</h4>
+        <p>$19.99</p>
+        <button onclick="addToCart(19.99)">Add to Cart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Islamic Bookstore. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookBag Co. - Islamic & Cultural Books</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>BookBag Co.</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Books from Islamic and World Cultures</h2>
+      <p>Download, read, and explore diverse wisdom.</p>
+    </section>
+
+    <section class="product-grid">
+      <div class="product-card">
+        <img src="images/quran.jpg" alt="Qur'an Cover" width="200" height="300">
+        <h3>The Holy Qur'an</h3>
+        <p>Free Download</p>
+        <a href="pdfs/quran.pdf" target="_blank" download>📥 Download PDF</a>
+      </div>
+
+      <div class="product-card">
+        <img src="images/hadith.jpg" alt="Hadith Book Cover" width="200" height="300">
+        <h3>40 Hadiths of Imam Nawawi</h3>
+        <p>Free Download</p>
+        <a href="pdfs/hadith.pdf" target="_blank" download>📥 Download PDF</a>
+      </div>
+
+      <div class="product-card">
+        <img src="images/egypt.jpg" alt="Egyptian Culture Book" width="200" height="300">
+        <h3>Ancient Egypt: A Cultural History</h3>
+        <p>Free Download</p>
+        <a href="pdfs/egypt.pdf" target="_blank" download>📥 Download PDF</a>
+      </div>
+
+      <div class="product-card">
+        <img src="images/asia.jpg" alt="Asian Culture Book" width="200" height="300">
+        <h3>Asian Civilizations & Beliefs</h3>
+        <p>Free Download</p>
+        <a href="pdfs/asia.pdf" target="_blank" download>📥 Download PDF</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="cart-summary">&copy; 2025 BookBag Co. | Items in cart: 0 | Total: $0.00</p>
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BookBag Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>BookBag Co.</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" title="Go to homepage">Home</a></li>
+        <li><a href="#shop" title="Browse books">Shop</a></li>
+        <li><a href="#about" title="Learn more about us">About</a></li>
+        <li><a href="#contact" title="Contact us">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Books from Around the World</h2>
+      <p>Explore Islamic and cultural literature with downloadable PDFs.</p>
+    </section>
+
+    <section id="shop" class="product-grid">
+      <div class="product-card">
+        <img src="images/quran.jpg" alt="Holy Quran" />
+        <h3>Holy Quran</h3>
+        <p>Free</p>
+        <a href="pdfs/quran.pdf" download>Download PDF</a><br>
+        <button onclick="addToCart(0)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/hadith.jpg" alt="Hadith Collection" />
+        <h3>Hadith Collection</h3>
+        <p>Free</p>
+        <a href="pdfs/hadith.pdf" download>Download PDF</a><br>
+        <button onclick="addToCart(0)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/bhagavadgita.jpg" alt="Bhagavad Gita" />
+        <h3>Bhagavad Gita</h3>
+        <p>$9.99</p>
+        <a href="pdfs/gita.pdf" download>Download PDF</a><br>
+        <button onclick="addToCart(9.99)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/talmud.jpg" alt="Talmud Selections" />
+        <h3>Talmud Selections</h3>
+        <p>$7.99</p>
+        <a href="pdfs/talmud.pdf" download>Download PDF</a><br>
+        <button onclick="addToCart(7.99)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/buddha.jpg" alt="Teachings of Buddha" />
+        <h3>Teachings of Buddha</h3>
+        <p>$5.99</p>
+        <a href="pdfs/buddha.pdf" download>Download PDF</a><br>
+        <button onclick="addToCart(5.99)">Add to Cart</button>
+      </div>
+    </section>
+
+    <section id="about" class="info-section">
+      <h2>About Us</h2>
+      <p>BookBag Co. is dedicated to sharing spiritual and cultural wisdom through literature. We provide downloadable books and a comfortable shopping experience.</p>
+    </section>
+
+    <section id="contact" class="info-section">
+      <h2>Contact Us</h2>
+      <p>Email: support@bookbagco.com</p>
+      <p>Phone: +1 (123) 456-7890</p>
+    </section>
+  </main>
+
+  <footer>
+    <p id="cart-summary">&copy; 2025 BookBag Co. | Items in cart: 0 | Total: $0.00</p>
+  </footer>
+
+</body>
+</html>
